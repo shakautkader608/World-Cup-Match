@@ -42,6 +42,7 @@ header{
 .header-part .highlight{
     background-color:#DD0000 ;
     padding: 12px 25px;
+    text-decoration: none;
     border-radius:5px;
     border: none;
     font-size:20px ;
@@ -237,38 +238,33 @@ hr{
     color: #4D4D4D;
 }
 
+/* Css End  */
 
-/* .matches{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 24px;
-}
-.match{
-    box-shadow: 0px 0px 5px;
-    border-radius: 10px;
-    padding: 53px 40px;
-    margin-top: 5px 23px;
-    text-align: center;
-}
+/* Media query Start  */
 
-.match-thumbnail{
-    display: flex;
-    align-items: center;
+@media only screen and (min-width : 688px) and (max-width:992px){
+    .container{
+    
+        width: 734px;
+    }
+    .header-part .headline{
+        font-size: 40px;
+     }
+       
+    .header-part .banner-description{
+           
+         font-size: 14px;
+        font-weight: 400;
+         margin-bottom: 30px;
+    }
+    .header-part .highlight {
+        background-color:#DD0000 ;
+        padding: 10px 25px;
+        font-size:20px ;
+    }
+    .bannner-image img{
+        width: 333px;
+    }
+    /* header part end  */
+    
 }
-
-.country-name{
-    font-size: 20px;
-    font-weight: 600;
-    color:#161616 ;
-}
-.match-time{
-    font-size: 16px;
-    font-weight: 500;
-    color: #4D4D4D;
-}
-p{
-    font-size: 16px;
-    font-weight: 700;
-    color: #161616;
-    text-align: center;
-} */
