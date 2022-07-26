@@ -2,29 +2,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* Common Or Utilities */
+/* Common Or Utilities------------------------------------------------------------------------------------------------------------------------ */
 
 body{
     font-family: 'Poppins', sans-serif;
 }
 
 
-/* Header part css start  */
+/* Header part css start
+------------------------------------------------------------------------------------------------------------  */
 header{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .container{
-    background-color: #161616;
+    
     width: 1321px;
-    border-radius: 15px;
+    
 }
 .header-part{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     justify-items: center;
+    background-color: #161616;
+    border-radius: 15px;
 }
 .header-part .headline{
     color: white;
@@ -55,7 +58,95 @@ header{
     width: 581px;
 }
 
-/* Header part css end  */
+/* Header part css end
+---------------------------------------------------------------------------------------------------------------------------  */
 
-/* Main css start  */
 
+
+/* Main css start ------------------------------------------------------------------------------------------------------------ */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 103px;
+}
+.match-schdule{
+    display: flex;
+}
+
+.sorting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 24px;
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 15px;
+    justify-content: space-around;
+    padding:25px 40px;
+}
+button{
+    width:252px ;
+    height:64px ;
+    border-radius: 10px;
+    border: none;
+    background-color:white ;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button.highlight{
+    background-color:#DD0000 ;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 24px;
+}
+.blog{
+    box-shadow: 0px 0px 5px;
+    border-radius: 10px;
+}
+.blog-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #161616;
+    margin-top: 16px;
+}
+.thumbnail img{
+    width: 100%;
+}
+.blog-info{
+    margin-left: 15px;
+    margin-bottom: 20px
+}
+p.transfer{
+    color: #161616;
+    border: 1px solid #161616 ;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 17px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.fa-clock, .fa-comment-dots{
+    font-size: 18px;
+    margin-right: 13px;
+    color: #161616;
+}
+.fa-comment-dots{
+    margin-left: 20px;
+}
+.icon{
+    margin-top: 20px;
+}
+.count{
+    font-size: 16px;
+    color: #161616;
+}
+
+/* Main Part Css End --------------------------------------------------------------------------------------------------------------------- */
