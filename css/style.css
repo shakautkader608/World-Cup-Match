@@ -150,3 +150,119 @@ p.transfer{
 }
 
 /* Main Part Css End --------------------------------------------------------------------------------------------------------------------- */
+
+footer{
+    background-color: #161616;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+.goal{
+    font-size:40px ;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-top: 130px ;
+
+}
+hr{
+    border: 1px solid #B9B9B9;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+    margin-top:50px ;
+    padding: 0 150px;
+
+}
+.nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B9B9B9;
+    
+}
+
+
+
+/* index2 css start  */
+
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 24px;
+    align-content: space-between;
+}
+.match{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px;
+    border-radius: 10px;
+    padding:53px 25px;
+
+}
+.match-thumbnail{
+    display: flex;
+    align-items: center;
+}
+.match-info{
+    display: flex;
+    flex-direction: column;
+
+}
+.match-vs{
+    font-size: 16px;
+    font-weight: 700;
+    color: #161616;
+    margin:0 23px;
+}
+.country-name{
+    font-size: 20px;
+    font-weight:600;
+    color:#161616 ;
+    margin-bottom: 0;
+}
+.match-time{
+    font-size: 16px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+
+/* .matches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 24px;
+}
+.match{
+    box-shadow: 0px 0px 5px;
+    border-radius: 10px;
+    padding: 53px 40px;
+    margin-top: 5px 23px;
+    text-align: center;
+}
+
+.match-thumbnail{
+    display: flex;
+    align-items: center;
+}
+
+.country-name{
+    font-size: 20px;
+    font-weight: 600;
+    color:#161616 ;
+}
+.match-time{
+    font-size: 16px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #161616;
+    text-align: center;
+} */
